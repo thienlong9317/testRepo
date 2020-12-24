@@ -58,4 +58,5 @@ public class AuthorController
 		repository.updateAuthor(obj);
 		return "redirect:/author/danh-sach";	
 	}
+	///mot commnet
 }
