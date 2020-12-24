@@ -1,0 +1,15 @@
+package controllers;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+@RequestMapping("admin/author")
+public class AuthorController {
+	AuthorRepository repository = new AuthorRepository();
+	@RequestMapping("index.html")
+	public String index(Model model) {
+	model.addAttribute("list", repository.getAuthors());
+	return "author.index";
+	}
+}

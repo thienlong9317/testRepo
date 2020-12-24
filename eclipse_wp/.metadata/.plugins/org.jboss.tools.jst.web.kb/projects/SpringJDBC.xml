@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kb-project>
+ <depends-on-projects/>
+ <used-by-projects/>
+ <paths>
+  <path value="D:/eclipse_wp/SpringJDBC/WebContent/WEB-INF/lib/spring-aop-5.2.8.RELEASE.jar"/>
+  <path value="D:/eclipse_wp/SpringJDBC/WebContent/WEB-INF/lib/spring-jcl-5.2.8.RELEASE.jar"/>
+  <path value="D:/eclipse_wp/SpringJDBC/WebContent/WEB-INF/lib/tiles-freemarker-3.0.8.jar"/>
+  <path value="D:/eclipse_wp/SpringJDBC/WebContent/WEB-INF/lib/tiles-compat-3.0.8.jar"/>
+  <path value="C:/Program Files/Eclipse/apache-tomcat-9.0.10/lib/tomcat-jdbc.jar"/>
+  <path value="D:/eclipse_wp/SpringJDBC/WebContent/WEB-INF/lib/tiles-mvel-3.0.8.jar"/>
+  <path value="D:/eclipse_wp/SpringJDBC/WebContent/WEB-INF/lib/tiles-autotag-core-runtime-1.2.jar"/>
+  <path value="D:/eclipse_wp/SpringJDBC/WebContent/WEB-INF/lib/tiles-el-3.0.8.jar"/>
+  <path value="C:/Program Files/Eclipse/apache-tomcat-9.0.10/lib/tomcat-dbcp.jar"/>
+  <path value="D:/eclipse_wp/SpringJDBC/WebContent/WEB-INF/lib/tiles-request-api-1.0.7.jar"/>
+  <path value="C:/Program Files/Eclipse/apache-tomcat-9.0.10/lib/tomcat-util-scan.jar"/>
+  <path value="D:/eclipse_wp/SpringJDBC/WebContent/WEB-INF/lib/tiles-template-3.0.8.jar"/>
+  <path value="D:/eclipse_wp/SpringJDBC/WebContent/WEB-INF/lib/spring-aspects-5.2.8.RELEASE.jar"/>
+  <path value="D:/eclipse_wp/SpringJDBC/WebContent/WEB-INF/lib/spring-jdbc-5.2.8.RELEASE.jar"/>
+  <path value="D:/eclipse_wp/SpringJDBC/WebContent/WEB-INF/lib/tiles-request-freemarker-1.0.7.jar"/>
+  <path value="D:/eclipse_wp/SpringJDBC/WebContent/WEB-INF/lib/tiles-request-servlet-1.0.7.jar"/>
+  <path value="D:/eclipse_wp/SpringJDBC/WebContent/WEB-INF/lib/spring-expression-5.2.8.RELEASE.jar"/>
+  <path value="D:/eclipse_wp/SpringJDBC/WebContent/WEB-INF/lib/spring-web-5.2.8.RELEASE.jar"/>
+  <path value="C:/Program Files/Eclipse/apache-tomcat-9.0.10/lib/catalina-ant.jar"/>
+  <path value="C:/Program Files/Eclipse/apache-tomcat-9.0.10/lib/tomcat-api.jar"/>
+  <path value="C:/Program Files/Eclipse/apache-tomcat-9.0.10/lib/annotations-api.jar"/>
+  <path value="D:/eclipse_wp/SpringJDBC/WebContent/WEB-INF/lib/spring-context-indexer-5.2.8.RELEASE.jar"/>
+  <path value="D:/eclipse_wp/SpringJDBC/WebContent/WEB-INF/lib/spring-core-5.2.8.RELEASE.jar"/>
+  <path value="C:/Program Files/Eclipse/apache-tomcat-9.0.10/lib/catalina-storeconfig.jar"/>
+  <path value="D:/eclipse_wp/SpringJDBC/WebContent/WEB-INF/lib/mail-1.4.7.jar"/>
+  <path value="D:/eclipse_wp/SpringJDBC/WebContent/WEB-INF/lib/tiles-api-3.0.8.jar"/>
+  <path value="D:/eclipse_wp/SpringJDBC/WebContent/WEB-INF/lib/commons-beanutils-1.8.0.jar"/>
+  <path value="D:/eclipse_wp/SpringJDBC/WebContent/WEB-INF/lib/commons-io-2.6.jar"/>
+  <path value="D:/eclipse_wp/SpringJDBC/WebContent/WEB-INF/lib/jcl-over-slf4j-1.7.6.jar"/>
+  <path value="C:/Program Files/Eclipse/apache-tomcat-9.0.10/lib/servlet-api.jar"/>
+  <path value="D:/eclipse_wp/SpringJDBC/WebContent/WEB-INF/lib/tiles-request-velocity-1.0.7.jar"/>
+  <path value="D:/eclipse_wp/SpringJDBC/WebContent/WEB-INF/lib/tiles-servlet-3.0.8.jar"/>
+  <path value="D:/eclipse_wp/SpringJDBC/WebContent/WEB-INF/lib/tiles-core-3.0.8.jar"/>
+  <path value="C:/Program Files/Eclipse/apache-tomcat-9.0.10/lib/catalina.jar"/>
+  <path value="C:/Program Files/Eclipse/apache-tomcat-9.0.10/lib/el-api.jar"/>
+  <path value="C:/Program Files/Eclipse/apache-tomcat-9.0.10/lib/jsp-api.jar"/>
+  <path value="C:/Program Files/Eclipse/apache-tomcat-9.0.10/lib/websocket-api.jar"/>
+  <path value="C:/Program Files/Eclipse/apache-tomcat-9.0.10/lib/catalina-tribes.jar"/>
+  <path value="D:/eclipse_wp/SpringJDBC/WebContent/WEB-INF/lib/slf4j-api-1.7.6.jar"/>
+  <path value="D:/eclipse_wp/SpringJDBC/WebContent/WEB-INF/lib/tiles-ognl-3.0.8.jar"/>
+  <path value="D:/eclipse_wp/SpringJDBC/WebContent/WEB-INF/lib/tiles-jsp-3.0.8.jar"/>
+  <path value="C:/Program Files/Eclipse/apache-tomcat-9.0.10/lib/tomcat-websocket.jar"/>
+  <path value="D:/eclipse_wp/SpringJDBC/WebContent/WEB-INF/lib/spring-instrument-5.2.8.RELEASE.jar"/>
+  <path value="C:/Program Files/Eclipse/apache-tomcat-9.0.10/lib/tomcat-i18n-ja.jar"/>
+  <path value="D:/eclipse_wp/SpringJDBC/WebContent/WEB-INF/lib/mysql-connector-java-5.1.49.jar"/>
+  <path value="D:/eclipse_wp/SpringJDBC/WebContent/WEB-INF/lib/spring-messaging-5.2.8.RELEASE.jar"/>
+  <path value="D:/eclipse_wp/SpringJDBC/WebContent/WEB-INF/lib/spring-test-5.2.8.RELEASE.jar"/>
+  <path value="D:/eclipse_wp/SpringJDBC/WebContent/WEB-INF/lib/javax.activation-api-1.2.0.jar"/>
+  <path value="C:/Program Files/Eclipse/apache-tomcat-9.0.10/lib/tomcat-jni.jar"/>
+  <path value="D:/eclipse_wp/SpringJDBC/WebContent/WEB-INF/lib/spring-oxm-5.2.8.RELEASE.jar"/>
+  <path value="D:/eclipse_wp/SpringJDBC/WebContent/WEB-INF/lib/tiles-request-jsp-1.0.7.jar"/>
+  <path value="D:/eclipse_wp/SpringJDBC/WebContent/WEB-INF/lib/tiles-request-mustache-1.0.7.jar"/>
+  <path value="C:/Program Files/Eclipse/apache-tomcat-9.0.10/lib/ecj-4.7.3a.jar"/>
+  <path value="C:/Program Files/Eclipse/apache-tomcat-9.0.10/lib/tomcat-i18n-fr.jar"/>
+  <path value="D:/eclipse_wp/SpringJDBC/WebContent/WEB-INF/lib/commons-digester-2.0.jar"/>
+  <path value="D:/eclipse_wp/SpringJDBC/WebContent/WEB-INF/lib/tiles-request-servlet-wildcard-1.0.7.jar"/>
+  <path value="C:/Program Files/Eclipse/apache-tomcat-9.0.10/lib/jasper-el.jar"/>
+  <path value="D:/eclipse_wp/SpringJDBC/WebContent/WEB-INF/lib/commons-fileupload-1.3.3.jar"/>
+  <path value="D:/eclipse_wp/SpringJDBC/WebContent/WEB-INF/lib/spring-webmvc-5.2.8.RELEASE.jar">
+   <libraries>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-spring-webmvc-5.2.8.RELEASE.jar/meta-inf/spring-form.tld" project="SpringJDBC"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-spring-webmvc-5.2.8.RELEASE.jar/meta-inf/spring.tld" project="SpringJDBC"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="D:/eclipse_wp/SpringJDBC/WebContent/WEB-INF/lib/spring-orm-5.2.8.RELEASE.jar"/>
+  <path value="D:/eclipse_wp/SpringJDBC/WebContent/WEB-INF/lib/spring-context-support-5.2.8.RELEASE.jar"/>
+  <path value="D:/eclipse_wp/SpringJDBC/WebContent/WEB-INF/lib/spring-webflux-5.2.8.RELEASE.jar"/>
+  <path value="D:/eclipse_wp/SpringJDBC/WebContent/WEB-INF/lib/tiles-extras-3.0.8.jar"/>
+  <path value="D:/eclipse_wp/SpringJDBC/WebContent/WEB-INF/lib/spring-context-5.2.8.RELEASE.jar"/>
+  <path value="C:/Program Files/Eclipse/apache-tomcat-9.0.10/lib/tomcat-coyote.jar"/>
+  <path value="D:/eclipse_wp/SpringJDBC/WebContent/WEB-INF/lib/spring-jms-5.2.8.RELEASE.jar"/>
+  <path value="D:/eclipse_wp/SpringJDBC/WebContent/WEB-INF/lib/spring-websocket-5.2.8.RELEASE.jar"/>
+  <path value="C:/Program Files/Eclipse/apache-tomcat-9.0.10/lib/jaspic-api.jar"/>
+  <path value="D:/eclipse_wp/SpringJDBC/WebContent/WEB-INF/lib/spring-beans-5.2.8.RELEASE.jar"/>
+  <path value="D:/eclipse_wp/SpringJDBC/WebContent/WEB-INF/lib/tiles-velocity-3.0.8.jar"/>
+  <path value="C:/Program Files/Eclipse/apache-tomcat-9.0.10/lib/tomcat-i18n-es.jar"/>
+  <path value="D:/eclipse_wp/SpringJDBC/WebContent/WEB-INF/lib/jstl-1.2.jar">
+   <libraries>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/c-1_0-rt.tld" project="SpringJDBC"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/c-1_0.tld" project="SpringJDBC"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/c.tld" project="SpringJDBC"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/fmt-1_0-rt.tld" project="SpringJDBC"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/fmt-1_0.tld" project="SpringJDBC"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/fmt.tld" project="SpringJDBC"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/fn.tld" project="SpringJDBC"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/permittedtaglibs.tld" project="SpringJDBC"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/scriptfree.tld" project="SpringJDBC"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/sql-1_0-rt.tld" project="SpringJDBC"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/sql-1_0.tld" project="SpringJDBC"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/sql.tld" project="SpringJDBC"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/x-1_0-rt.tld" project="SpringJDBC"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/x-1_0.tld" project="SpringJDBC"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/x.tld" project="SpringJDBC"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="C:/Program Files/Eclipse/apache-tomcat-9.0.10/lib/tomcat-util.jar"/>
+  <path value="D:/eclipse_wp/SpringJDBC/WebContent/WEB-INF/lib/spring-tx-5.2.8.RELEASE.jar"/>
+  <path value="C:/Program Files/Eclipse/apache-tomcat-9.0.10/lib/catalina-ha.jar"/>
+  <path value="C:/Program Files/Eclipse/apache-tomcat-9.0.10/lib/jasper.jar"/>
+ </paths>
+ <validation>
+  <core validator-id="jsf-verification"/>
+  <core validator-id="jboss.cdi.core"/>
+  <el>
+   <linked-el length="19" name="%0" offset="692" path="%1"/>
+   <linked-el length="6" name="%0" offset="733" path="%1"/>
+   <linked-el length="12" name="%2" offset="208" path="%3"/>
+   <linked-el length="13" name="%4" offset="336" path="%5"/>
+   <linked-el length="14" name="%4" offset="363" path="%5"/>
+   <linked-el length="63" name="%6" offset="3053" path="%7"/>
+   <linked-el length="59" name="%6" offset="126" path="%8"/>
+   <linked-el length="59" name="%6" offset="210" path="%9"/>
+   <linked-el length="53" name="%6" offset="687" path="%10"/>
+   <linked-el length="67" name="%6" offset="500" path="%8"/>
+   <linked-el length="55" name="%6" offset="745" path="%9"/>
+   <linked-el length="59" name="%6" offset="8" path="%8"/>
+   <linked-el length="56" name="%6" offset="584" path="%9"/>
+   <linked-el length="54" name="%6" offset="750" path="%8"/>
+   <linked-el length="53" name="%6" offset="652" path="%9"/>
+   <linked-el length="54" name="%6" offset="812" path="%9"/>
+   <linked-el length="50" name="%6" offset="690" path="%7"/>
+   <linked-el length="66" name="%6" offset="672" path="%8"/>
+   <linked-el length="48" name="%6" offset="863" path="%10"/>
+   <linked-el length="52" name="%6" offset="3183" path="%7"/>
+   <linked-el length="53" name="%6" offset="579" path="%8"/>
+   <linked-el length="49" name="%6" offset="101" path="%9"/>
+   <linked-el length="41" name="%6" offset="2294" path="%7"/>
+   <linked-el length="54" name="%6" offset="102" path="%11"/>
+   <linked-el length="55" name="%12" offset="745" path="%9"/>
+   <linked-el length="7" name="%12" offset="536" path="%9"/>
+   <linked-el length="56" name="%12" offset="584" path="%9"/>
+   <linked-el length="66" name="%12" offset="672" path="%8"/>
+   <linked-el length="10" name="%12" offset="418" path="%8"/>
+   <linked-el length="7" name="%12" offset="452" path="%8"/>
+   <linked-el length="67" name="%12" offset="500" path="%8"/>
+   <linked-el length="9" name="%12" offset="116" path="%13"/>
+   <linked-el length="10" name="%12" offset="502" path="%9"/>
+   <linked-el length="10" name="%14" offset="441" path="%9"/>
+   <linked-el length="10" name="%14" offset="357" path="%8"/>
+   <linked-el length="14" name="%15" offset="363" path="%5"/>
+   <linked-el length="55" name="%16" offset="745" path="%9"/>
+   <linked-el length="9" name="%16" offset="554" path="%9"/>
+   <linked-el length="7" name="%16" offset="536" path="%9"/>
+   <linked-el length="56" name="%16" offset="584" path="%9"/>
+   <linked-el length="66" name="%16" offset="672" path="%8"/>
+   <linked-el length="11" name="%16" offset="193" path="%13"/>
+   <linked-el length="10" name="%16" offset="418" path="%8"/>
+   <linked-el length="7" name="%16" offset="452" path="%8"/>
+   <linked-el length="67" name="%16" offset="500" path="%8"/>
+   <linked-el length="9" name="%16" offset="116" path="%13"/>
+   <linked-el length="10" name="%16" offset="502" path="%9"/>
+   <linked-el length="9" name="%16" offset="470" path="%8"/>
+   <linked-el length="9" name="%17" offset="554" path="%9"/>
+   <linked-el length="11" name="%17" offset="193" path="%13"/>
+   <linked-el length="9" name="%17" offset="470" path="%8"/>
+   <linked-el length="63" name="%18" offset="3053" path="%7"/>
+   <linked-el length="59" name="%18" offset="126" path="%8"/>
+   <linked-el length="59" name="%18" offset="210" path="%9"/>
+   <linked-el length="53" name="%18" offset="687" path="%10"/>
+   <linked-el length="67" name="%18" offset="500" path="%8"/>
+   <linked-el length="55" name="%18" offset="745" path="%9"/>
+   <linked-el length="59" name="%18" offset="8" path="%8"/>
+   <linked-el length="56" name="%18" offset="584" path="%9"/>
+   <linked-el length="54" name="%18" offset="750" path="%8"/>
+   <linked-el length="53" name="%18" offset="652" path="%9"/>
+   <linked-el length="54" name="%18" offset="812" path="%9"/>
+   <linked-el length="50" name="%18" offset="690" path="%7"/>
+   <linked-el length="66" name="%18" offset="672" path="%8"/>
+   <linked-el length="48" name="%18" offset="863" path="%10"/>
+   <linked-el length="52" name="%18" offset="3183" path="%7"/>
+   <linked-el length="53" name="%18" offset="579" path="%8"/>
+   <linked-el length="49" name="%18" offset="101" path="%9"/>
+   <linked-el length="41" name="%18" offset="2294" path="%7"/>
+   <linked-el length="54" name="%18" offset="102" path="%11"/>
+   <linked-el length="13" name="%19" offset="284" path="%3"/>
+   <linked-el length="10" name="%20" offset="300" path="%5"/>
+   <linked-el length="13" name="%21" offset="336" path="%5"/>
+   <linked-el length="63" name="%22" offset="3053" path="%7"/>
+   <linked-el length="59" name="%22" offset="126" path="%8"/>
+   <linked-el length="59" name="%22" offset="210" path="%9"/>
+   <linked-el length="53" name="%22" offset="687" path="%10"/>
+   <linked-el length="67" name="%22" offset="500" path="%8"/>
+   <linked-el length="55" name="%22" offset="745" path="%9"/>
+   <linked-el length="59" name="%22" offset="8" path="%8"/>
+   <linked-el length="56" name="%22" offset="584" path="%9"/>
+   <linked-el length="54" name="%22" offset="750" path="%8"/>
+   <linked-el length="53" name="%22" offset="652" path="%9"/>
+   <linked-el length="54" name="%22" offset="812" path="%9"/>
+   <linked-el length="50" name="%22" offset="690" path="%7"/>
+   <linked-el length="66" name="%22" offset="672" path="%8"/>
+   <linked-el length="48" name="%22" offset="863" path="%10"/>
+   <linked-el length="52" name="%22" offset="3183" path="%7"/>
+   <linked-el length="53" name="%22" offset="579" path="%8"/>
+   <linked-el length="49" name="%22" offset="101" path="%9"/>
+   <linked-el length="41" name="%22" offset="2294" path="%7"/>
+   <linked-el length="54" name="%22" offset="102" path="%11"/>
+  </el>
+ </validation>
+ <aliases>
+  <alias path="msg" value="%0"/>
+  <alias path="maLoai" value="%2"/>
+  <alias path="/SpringJDBC/WebContent/WEB-INF/templates/trang-mau-1.jsp" value="%7"/>
+  <alias path="ls" value="%4"/>
+  <alias path="/SpringJDBC/WebContent/WEB-INF/views/author/edit.jsp" value="%13"/>
+  <alias path="pageContext.request" value="%6"/>
+  <alias path="o.id" value="%12"/>
+  <alias path="list" value="%14"/>
+  <alias path="/SpringJDBC/WebContent/WEB-INF/templates/thuc-don.jsp" value="%10"/>
+  <alias path="ls.tenLoai" value="%15"/>
+  <alias path="o" value="%16"/>
+  <alias path="o.name" value="%17"/>
+  <alias path="pageContext" value="%18"/>
+  <alias path="/SpringJDBC/WebContent/WEB-INF/views/send-mail.jsp" value="%1"/>
+  <alias path="/SpringJDBC/WebContent/WEB-INF/views/tim-loai-sua.jsp" value="%5"/>
+  <alias path="/SpringJDBC/WebContent/WEB-INF/views/them-loai-sua.jsp" value="%3"/>
+  <alias path="tenLoai" value="%19"/>
+  <alias path="/SpringJDBC/WebContent/WEB-INF/views/author/index.jsp" value="%9"/>
+  <alias path="dsls" value="%20"/>
+  <alias path="ls.maLoai" value="%21"/>
+  <alias path="/SpringJDBC/WebContent/WEB-INF/views/index.jsp" value="%8"/>
+  <alias path="pageContext.request.contextPath" value="%22"/>
+  <alias path="/SpringJDBC/WebContent/WEB-INF/templates/dau-trang.jsp" value="%11"/>
+ </aliases>
+ <includes/>
+ <uris>
+  <uri value="http://java.sun.com/jsp/jstl/core">
+   <prefix>c</prefix>
+  </uri>
+  <uri value="http://www.springframework.org/tags/form">
+   <prefix>form</prefix>
+  </uri>
+ </uris>
+</kb-project>

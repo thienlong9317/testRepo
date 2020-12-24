@@ -1,0 +1,56 @@
+2020-12-23 08:09:28,896 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-12-23 08:25:07,605 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-12-23 08:44:59,558 [Worker-15: Resolving model org.eclipse.recommenders:index::zip:0.0.0] WARN  o.e.r.models.ModelRepository - Failed to download org.eclipse.recommenders:index::zip:0.0.0
+org.eclipse.aether.resolution.ArtifactResolutionException: Could not find artifact org.eclipse.recommenders:index:zip:0.0.0-SNAPSHOT in models (http://download.eclipse.org/recommenders/models/photon/)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:453) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:255) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:232) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:303) ~[na:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolveInternal(ModelRepository.java:193) [org.eclipse.recommenders.models_2.5.4.v20180909-1132.jar:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolve(ModelRepository.java:172) [org.eclipse.recommenders.models_2.5.4.v20180909-1132.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.EclipseModelRepository.resolve(EclipseModelRepository.java:168) [org.eclipse.recommenders.models.rcp_2.5.4.v20180909-1132.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.DownloadModelArchiveJob.run(DownloadModelArchiveJob.java:76) [org.eclipse.recommenders.models.rcp_2.5.4.v20180909-1132.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) [org.eclipse.core.jobs_3.10.200.v20180912-1356.jar:na]
+Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find artifact org.eclipse.recommenders:index:zip:0.0.0-SNAPSHOT in models (http://download.eclipse.org/recommenders/models/photon/)
+	at org.eclipse.aether.connector.basic.ArtifactTransportListener.transferFailed(ArtifactTransportListener.java:48) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725/:1.0.3]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run(BasicRepositoryConnector.java:364) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725/:1.0.3]
+	at org.eclipse.aether.util.concurrency.RunnableErrorForwarder$1.run(RunnableErrorForwarder.java:76) ~[na:na]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$DirectExecutor.execute(BasicRepositoryConnector.java:590) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725/:1.0.3]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector.get(BasicRepositoryConnector.java:258) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725/:1.0.3]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:529) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:430) ~[na:na]
+	... 8 common frames omitted
+2020-12-23 10:56:14,631 [Worker-95: Periodic workspace save.] ERROR o.e.m.c.i.p.r.ProjectRegistryReader - Can't write workspace state
+java.io.FileNotFoundException: D:\eclipse_wp\.metadata\.plugins\org.eclipse.m2e.core\workspaceState.ser (Access is denied)
+	at java.io.FileOutputStream.open0(Native Method) ~[na:1.8.0_201]
+	at java.io.FileOutputStream.open(Unknown Source) ~[na:1.8.0_201]
+	at java.io.FileOutputStream.<init>(Unknown Source) ~[na:1.8.0_201]
+	at java.io.FileOutputStream.<init>(Unknown Source) ~[na:1.8.0_201]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryReader.writeWorkspaceState(ProjectRegistryReader.java:127) ~[org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.writeWorkspaceState(ProjectRegistryManager.java:926) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.MavenPluginActivator$2.saving(MavenPluginActivator.java:150) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.core.internal.resources.SaveManager.executeLifecycle(SaveManager.java:387) [org.eclipse.core.resources_3.13.200.v20181121-1020.jar:na]
+	at org.eclipse.core.internal.resources.SaveManager$1.run(SaveManager.java:204) [org.eclipse.core.resources_3.13.200.v20181121-1020.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) [org.eclipse.equinox.common_3.10.200.v20181021-1645.jar:na]
+	at org.eclipse.core.internal.resources.SaveManager.broadcastLifecycle(SaveManager.java:207) [org.eclipse.core.resources_3.13.200.v20181121-1020.jar:na]
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1172) [org.eclipse.core.resources_3.13.200.v20181121-1020.jar:na]
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1151) [org.eclipse.core.resources_3.13.200.v20181121-1020.jar:na]
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:55) [org.eclipse.core.resources_3.13.200.v20181121-1020.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) [org.eclipse.core.jobs_3.10.200.v20180912-1356.jar:na]
+2020-12-23 10:58:40,255 [ModalContext] ERROR o.e.m.c.i.p.r.ProjectRegistryReader - Can't write workspace state
+java.io.FileNotFoundException: D:\eclipse_wp\.metadata\.plugins\org.eclipse.m2e.core\workspaceState.ser (Access is denied)
+	at java.io.FileOutputStream.open0(Native Method) ~[na:1.8.0_201]
+	at java.io.FileOutputStream.open(Unknown Source) ~[na:1.8.0_201]
+	at java.io.FileOutputStream.<init>(Unknown Source) ~[na:1.8.0_201]
+	at java.io.FileOutputStream.<init>(Unknown Source) ~[na:1.8.0_201]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryReader.writeWorkspaceState(ProjectRegistryReader.java:127) ~[org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.writeWorkspaceState(ProjectRegistryManager.java:926) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.MavenPluginActivator$2.saving(MavenPluginActivator.java:150) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.core.internal.resources.SaveManager.executeLifecycle(SaveManager.java:387) [org.eclipse.core.resources_3.13.200.v20181121-1020.jar:na]
+	at org.eclipse.core.internal.resources.SaveManager$1.run(SaveManager.java:204) [org.eclipse.core.resources_3.13.200.v20181121-1020.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) [org.eclipse.equinox.common_3.10.200.v20181021-1645.jar:na]
+	at org.eclipse.core.internal.resources.SaveManager.broadcastLifecycle(SaveManager.java:207) [org.eclipse.core.resources_3.13.200.v20181121-1020.jar:na]
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1172) [org.eclipse.core.resources_3.13.200.v20181121-1020.jar:na]
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2338) [org.eclipse.core.resources_3.13.200.v20181121-1020.jar:na]
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.lambda$1(IDEWorkbenchAdvisor.java:521) [org.eclipse.ui.ide.application_1.3.100.v20181129-0817.jar:na]
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122) ~[org.eclipse.jface_3.15.0.v20181123-1505.jar:na]

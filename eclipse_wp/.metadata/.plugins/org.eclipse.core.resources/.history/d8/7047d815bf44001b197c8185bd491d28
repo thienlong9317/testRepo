@@ -1,0 +1,5 @@
+package model;
+
+public abstract class Repository {
+	finalprotectedJdbcTemplate jdbc;publicRepository() {DriverManagerDataSource dataSource= newDriverManagerDataSource();dataSource.setDriverClassName("com.mysql.jdbc.Driver");dataSource.setUrl("jdbc:mysql://localhost:3306/MiniShop");dataSource.setUsername("kaka");dataSource.setPassword("123");jdbc= newJdbcTemplate(dataSource);}
+}

@@ -1,0 +1,61 @@
+package controllers;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+
+import model.Author;
+import model.AuthorRepository;
+
+@Controller
+@RequestMapping("/author")
+public class AuthorController 
+{
+	AuthorRepository repository = new AuthorRepository();
+	@RequestMapping("danh-sach")
+	public String index(Model model) 
+	{
+		model.addAttribute("list", repository.getAuthors());
+		//System.out.println(repository.getAuthors().size());
+		return "author.index";	
+	}
+	
+	@RequestMapping("them")
+	public String add() 
+	{
+		return "author.add";
+	}
+	@RequestMapping( value = "them", method = RequestMethod.POST)
+	public String add(Author obj) 
+	{
+		repository.addAuthor(obj);
+		return "redirect:danh-sach";
+	}
+	
+	@RequestMapping("xoa")
+	public String xoa() 
+	{
+		return "author.xoa";
+	}
+	@RequestMapping("xoa/{id}")
+	public String delete (@PathVariable("id") int id) 
+	{
+		repository.delete(id);
+		return "redirect:/author/danh-sach";
+	}
+	
+	@RequestMapping("edit/{id}")
+	public String edit(Model model, @PathVariable("id") int id) 
+	{
+		model.addAttribute("o", repository.getAuthorById(id));
+		return "author.edit";
+	}
+	@RequestMapping(value = "edit/{id}", method=RequestMethod.POST)
+	public String edit(Model model, Author obj) 
+	{
+		repository.updateAuthor(obj);
+		return "redirect:/author/danh-sach";	
+	}
+}

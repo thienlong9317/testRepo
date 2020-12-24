@@ -1,0 +1,9 @@
+package controllers;
+
+public class Snippet {
+	public int delete(Author au)
+		{
+			return jdbc.update("delete from Author where authorid = ?", au.getId());
+		}
+}
+

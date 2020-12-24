@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kb-project>
+ <depends-on-projects/>
+ <used-by-projects/>
+ <paths>
+  <path value="C:/Program Files/Eclipse/apache-tomcat-9.0.10/lib/tomcat-websocket.jar"/>
+  <path value="E:/eclipse_wp/SpringMVC/WebContent/WEB-INF/lib/spring-expression-5.2.8.RELEASE.jar"/>
+  <path value="E:/eclipse_wp/SpringMVC/WebContent/WEB-INF/lib/spring-web-5.2.8.RELEASE.jar"/>
+  <path value="C:/Program Files/Eclipse/apache-tomcat-9.0.10/lib/tomcat-i18n-ja.jar"/>
+  <path value="E:/eclipse_wp/SpringMVC/WebContent/WEB-INF/lib/spring-webmvc-5.2.8.RELEASE.jar">
+   <libraries>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-spring-webmvc-5.2.8.RELEASE.jar/meta-inf/spring-form.tld" project="SpringMVC"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-spring-webmvc-5.2.8.RELEASE.jar/meta-inf/spring.tld" project="SpringMVC"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="C:/Program Files/Eclipse/apache-tomcat-9.0.10/lib/tomcat-jdbc.jar"/>
+  <path value="E:/eclipse_wp/SpringMVC/WebContent/WEB-INF/lib/spring-orm-5.2.8.RELEASE.jar"/>
+  <path value="E:/eclipse_wp/SpringMVC/WebContent/WEB-INF/lib/mysql-connector-java-5.1.49.jar"/>
+  <path value="E:/eclipse_wp/SpringMVC/WebContent/WEB-INF/lib/spring-jcl-5.2.8.RELEASE.jar"/>
+  <path value="E:/eclipse_wp/SpringMVC/WebContent/WEB-INF/lib/spring-messaging-5.2.8.RELEASE.jar"/>
+  <path value="E:/eclipse_wp/SpringMVC/WebContent/WEB-INF/lib/spring-aop-5.2.8.RELEASE.jar"/>
+  <path value="C:/Program Files/Eclipse/apache-tomcat-9.0.10/lib/tomcat-dbcp.jar"/>
+  <path value="E:/eclipse_wp/SpringMVC/WebContent/WEB-INF/lib/spring-instrument-5.2.8.RELEASE.jar"/>
+  <path value="E:/eclipse_wp/SpringMVC/WebContent/WEB-INF/lib/spring-test-5.2.8.RELEASE.jar"/>
+  <path value="C:/Program Files/Eclipse/apache-tomcat-9.0.10/lib/tomcat-jni.jar"/>
+  <path value="C:/Program Files/Eclipse/apache-tomcat-9.0.10/lib/tomcat-util-scan.jar"/>
+  <path value="C:/Program Files/Eclipse/apache-tomcat-9.0.10/lib/ecj-4.7.3a.jar"/>
+  <path value="C:/Program Files/Eclipse/apache-tomcat-9.0.10/lib/tomcat-i18n-fr.jar"/>
+  <path value="E:/eclipse_wp/SpringMVC/WebContent/WEB-INF/lib/jstl-1.2.jar">
+   <libraries>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/c-1_0-rt.tld" project="SpringMVC"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/c-1_0.tld" project="SpringMVC"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/c.tld" project="SpringMVC"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/fmt-1_0-rt.tld" project="SpringMVC"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/fmt-1_0.tld" project="SpringMVC"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/fmt.tld" project="SpringMVC"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/fn.tld" project="SpringMVC"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/permittedtaglibs.tld" project="SpringMVC"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/scriptfree.tld" project="SpringMVC"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/sql-1_0-rt.tld" project="SpringMVC"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/sql-1_0.tld" project="SpringMVC"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/sql.tld" project="SpringMVC"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/x-1_0-rt.tld" project="SpringMVC"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/x-1_0.tld" project="SpringMVC"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/x.tld" project="SpringMVC"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="C:/Program Files/Eclipse/apache-tomcat-9.0.10/lib/catalina-ant.jar"/>
+  <path value="C:/Program Files/Eclipse/apache-tomcat-9.0.10/lib/jasper-el.jar"/>
+  <path value="C:/Program Files/Eclipse/apache-tomcat-9.0.10/lib/tomcat-api.jar"/>
+  <path value="C:/Program Files/Eclipse/apache-tomcat-9.0.10/lib/annotations-api.jar"/>
+  <path value="C:/Program Files/Eclipse/apache-tomcat-9.0.10/lib/catalina-storeconfig.jar"/>
+  <path value="E:/eclipse_wp/SpringMVC/WebContent/WEB-INF/lib/spring-aspects-5.2.8.RELEASE.jar"/>
+  <path value="E:/eclipse_wp/SpringMVC/WebContent/WEB-INF/lib/spring-jdbc-5.2.8.RELEASE.jar"/>
+  <path value="C:/Program Files/Eclipse/apache-tomcat-9.0.10/lib/tomcat-coyote.jar"/>
+  <path value="E:/eclipse_wp/SpringMVC/WebContent/WEB-INF/lib/spring-context-indexer-5.2.8.RELEASE.jar"/>
+  <path value="E:/eclipse_wp/SpringMVC/WebContent/WEB-INF/lib/spring-context-support-5.2.8.RELEASE.jar"/>
+  <path value="E:/eclipse_wp/SpringMVC/WebContent/WEB-INF/lib/spring-webflux-5.2.8.RELEASE.jar"/>
+  <path value="C:/Program Files/Eclipse/apache-tomcat-9.0.10/lib/jaspic-api.jar"/>
+  <path value="C:/Program Files/Eclipse/apache-tomcat-9.0.10/lib/servlet-api.jar"/>
+  <path value="E:/eclipse_wp/SpringMVC/WebContent/WEB-INF/lib/spring-core-5.2.8.RELEASE.jar"/>
+  <path value="C:/Program Files/Eclipse/apache-tomcat-9.0.10/lib/tomcat-i18n-es.jar"/>
+  <path value="E:/eclipse_wp/SpringMVC/WebContent/WEB-INF/lib/spring-context-5.2.8.RELEASE.jar"/>
+  <path value="E:/eclipse_wp/SpringMVC/WebContent/WEB-INF/lib/spring-jms-5.2.8.RELEASE.jar"/>
+  <path value="C:/Program Files/Eclipse/apache-tomcat-9.0.10/lib/tomcat-util.jar"/>
+  <path value="C:/Program Files/Eclipse/apache-tomcat-9.0.10/lib/catalina.jar"/>
+  <path value="C:/Program Files/Eclipse/apache-tomcat-9.0.10/lib/el-api.jar"/>
+  <path value="C:/Program Files/Eclipse/apache-tomcat-9.0.10/lib/jsp-api.jar"/>
+  <path value="C:/Program Files/Eclipse/apache-tomcat-9.0.10/lib/websocket-api.jar"/>
+  <path value="C:/Program Files/Eclipse/apache-tomcat-9.0.10/lib/catalina-tribes.jar"/>
+  <path value="E:/eclipse_wp/SpringMVC/WebContent/WEB-INF/lib/spring-websocket-5.2.8.RELEASE.jar"/>
+  <path value="E:/eclipse_wp/SpringMVC/WebContent/WEB-INF/lib/spring-beans-5.2.8.RELEASE.jar"/>
+  <path value="E:/eclipse_wp/SpringMVC/WebContent/WEB-INF/lib/spring-oxm-5.2.8.RELEASE.jar"/>
+  <path value="C:/Program Files/Eclipse/apache-tomcat-9.0.10/lib/catalina-ha.jar"/>
+  <path value="E:/eclipse_wp/SpringMVC/WebContent/WEB-INF/lib/spring-tx-5.2.8.RELEASE.jar"/>
+  <path value="C:/Program Files/Eclipse/apache-tomcat-9.0.10/lib/jasper.jar"/>
+ </paths>
+ <validation>
+  <core validator-id="jsf-verification"/>
+  <core validator-id="jboss.cdi.core"/>
+  <el>
+   <linked-el length="11" name="%0" offset="313" path="%1"/>
+   <linked-el length="11" name="%0" offset="313" path="%2"/>
+   <linked-el length="12" name="%3" offset="385" path="%1"/>
+   <linked-el length="12" name="%3" offset="385" path="%2"/>
+   <linked-el length="14" name="%4" offset="458" path="%5"/>
+   <linked-el length="13" name="%4" offset="431" path="%5"/>
+   <linked-el length="10" name="%6" offset="395" path="%5"/>
+   <linked-el length="13" name="%7" offset="431" path="%5"/>
+   <linked-el length="14" name="%8" offset="458" path="%5"/>
+  </el>
+ </validation>
+ <aliases>
+  <alias path="maLoai" value="%0"/>
+  <alias path="tenLoai" value="%3"/>
+  <alias path="ls" value="%4"/>
+  <alias path="dsls" value="%6"/>
+  <alias path="ls.maLoai" value="%7"/>
+  <alias path="/SpringMVC/WebContent/WEB-INF/views/them-loai-sua2.jsp" value="%1"/>
+  <alias path="/SpringMVC/WebContent/WEB-INF/views/them-loai-sua.jsp" value="%2"/>
+  <alias path="/SpringMVC/WebContent/WEB-INF/views/loai-sua.jsp" value="%5"/>
+  <alias path="ls.tenLoai" value="%8"/>
+ </aliases>
+ <includes/>
+ <uris>
+  <uri value="http://java.sun.com/jsp/jstl/core">
+   <prefix>c</prefix>
+  </uri>
+ </uris>
+</kb-project>

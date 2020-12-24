@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kb-project>
+ <depends-on-projects/>
+ <used-by-projects/>
+ <paths>
+  <path value="E:/eclipse_wp/SpringTiles/WebContent/WEB-INF/lib/spring-expression-5.2.8.RELEASE.jar"/>
+  <path value="E:/eclipse_wp/SpringTiles/WebContent/WEB-INF/lib/spring-web-5.2.8.RELEASE.jar"/>
+  <path value="E:/eclipse_wp/SpringTiles/WebContent/WEB-INF/lib/tiles-ognl-3.0.8.jar"/>
+  <path value="C:/Program Files/Eclipse/apache-tomcat-9.0.10/lib/tomcat-jdbc.jar"/>
+  <path value="E:/eclipse_wp/SpringTiles/WebContent/WEB-INF/lib/spring-jcl-5.2.8.RELEASE.jar"/>
+  <path value="E:/eclipse_wp/SpringTiles/WebContent/WEB-INF/lib/spring-aop-5.2.8.RELEASE.jar"/>
+  <path value="C:/Program Files/Eclipse/apache-tomcat-9.0.10/lib/tomcat-dbcp.jar"/>
+  <path value="C:/Program Files/Eclipse/apache-tomcat-9.0.10/lib/tomcat-util-scan.jar"/>
+  <path value="E:/eclipse_wp/SpringTiles/WebContent/WEB-INF/lib/tiles-freemarker-3.0.8.jar"/>
+  <path value="E:/eclipse_wp/SpringTiles/WebContent/WEB-INF/lib/spring-websocket-5.2.8.RELEASE.jar"/>
+  <path value="E:/eclipse_wp/SpringTiles/WebContent/WEB-INF/lib/spring-beans-5.2.8.RELEASE.jar"/>
+  <path value="C:/Program Files/Eclipse/apache-tomcat-9.0.10/lib/catalina-ant.jar"/>
+  <path value="C:/Program Files/Eclipse/apache-tomcat-9.0.10/lib/tomcat-api.jar"/>
+  <path value="E:/eclipse_wp/SpringTiles/WebContent/WEB-INF/lib/tiles-el-3.0.8.jar"/>
+  <path value="C:/Program Files/Eclipse/apache-tomcat-9.0.10/lib/annotations-api.jar"/>
+  <path value="E:/eclipse_wp/SpringTiles/WebContent/WEB-INF/lib/tiles-request-api-1.0.7.jar"/>
+  <path value="C:/Program Files/Eclipse/apache-tomcat-9.0.10/lib/catalina-storeconfig.jar"/>
+  <path value="E:/eclipse_wp/SpringTiles/WebContent/WEB-INF/lib/slf4j-api-1.7.6.jar"/>
+  <path value="E:/eclipse_wp/SpringTiles/WebContent/WEB-INF/lib/spring-context-indexer-5.2.8.RELEASE.jar"/>
+  <path value="C:/Program Files/Eclipse/apache-tomcat-9.0.10/lib/servlet-api.jar"/>
+  <path value="E:/eclipse_wp/SpringTiles/WebContent/WEB-INF/lib/spring-context-5.2.8.RELEASE.jar"/>
+  <path value="E:/eclipse_wp/SpringTiles/WebContent/WEB-INF/lib/tiles-jsp-3.0.8.jar"/>
+  <path value="E:/eclipse_wp/SpringTiles/WebContent/WEB-INF/lib/tiles-api-3.0.8.jar"/>
+  <path value="C:/Program Files/Eclipse/apache-tomcat-9.0.10/lib/catalina.jar"/>
+  <path value="C:/Program Files/Eclipse/apache-tomcat-9.0.10/lib/el-api.jar"/>
+  <path value="C:/Program Files/Eclipse/apache-tomcat-9.0.10/lib/jsp-api.jar"/>
+  <path value="C:/Program Files/Eclipse/apache-tomcat-9.0.10/lib/websocket-api.jar"/>
+  <path value="E:/eclipse_wp/SpringTiles/WebContent/WEB-INF/lib/jcl-over-slf4j-1.7.6.jar"/>
+  <path value="C:/Program Files/Eclipse/apache-tomcat-9.0.10/lib/catalina-tribes.jar"/>
+  <path value="E:/eclipse_wp/SpringTiles/WebContent/WEB-INF/lib/tiles-compat-3.0.8.jar"/>
+  <path value="E:/eclipse_wp/SpringTiles/WebContent/WEB-INF/lib/tiles-autotag-core-runtime-1.2.jar"/>
+  <path value="E:/eclipse_wp/SpringTiles/WebContent/WEB-INF/lib/tiles-servlet-3.0.8.jar"/>
+  <path value="E:/eclipse_wp/SpringTiles/WebContent/WEB-INF/lib/tiles-core-3.0.8.jar"/>
+  <path value="E:/eclipse_wp/SpringTiles/WebContent/WEB-INF/lib/tiles-template-3.0.8.jar"/>
+  <path value="C:/Program Files/Eclipse/apache-tomcat-9.0.10/lib/tomcat-websocket.jar"/>
+  <path value="C:/Program Files/Eclipse/apache-tomcat-9.0.10/lib/tomcat-i18n-ja.jar"/>
+  <path value="E:/eclipse_wp/SpringTiles/WebContent/WEB-INF/lib/tiles-request-servlet-wildcard-1.0.7.jar"/>
+  <path value="E:/eclipse_wp/SpringTiles/WebContent/WEB-INF/lib/commons-digester-2.0.jar"/>
+  <path value="E:/eclipse_wp/SpringTiles/WebContent/WEB-INF/lib/spring-webmvc-5.2.8.RELEASE.jar">
+   <libraries>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-spring-webmvc-5.2.8.RELEASE.jar/meta-inf/spring-form.tld" project="SpringTiles"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-spring-webmvc-5.2.8.RELEASE.jar/meta-inf/spring.tld" project="SpringTiles"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="E:/eclipse_wp/SpringTiles/WebContent/WEB-INF/lib/spring-orm-5.2.8.RELEASE.jar"/>
+  <path value="E:/eclipse_wp/SpringTiles/WebContent/WEB-INF/lib/tiles-extras-3.0.8.jar"/>
+  <path value="E:/eclipse_wp/SpringTiles/WebContent/WEB-INF/lib/mysql-connector-java-5.1.49.jar"/>
+  <path value="E:/eclipse_wp/SpringTiles/WebContent/WEB-INF/lib/spring-messaging-5.2.8.RELEASE.jar"/>
+  <path value="C:/Program Files/Eclipse/apache-tomcat-9.0.10/lib/tomcat-jni.jar"/>
+  <path value="E:/eclipse_wp/SpringTiles/WebContent/WEB-INF/lib/spring-instrument-5.2.8.RELEASE.jar"/>
+  <path value="E:/eclipse_wp/SpringTiles/WebContent/WEB-INF/lib/spring-test-5.2.8.RELEASE.jar"/>
+  <path value="C:/Program Files/Eclipse/apache-tomcat-9.0.10/lib/ecj-4.7.3a.jar"/>
+  <path value="E:/eclipse_wp/SpringTiles/WebContent/WEB-INF/lib/tiles-request-velocity-1.0.7.jar"/>
+  <path value="C:/Program Files/Eclipse/apache-tomcat-9.0.10/lib/tomcat-i18n-fr.jar"/>
+  <path value="C:/Program Files/Eclipse/apache-tomcat-9.0.10/lib/jasper-el.jar"/>
+  <path value="E:/eclipse_wp/SpringTiles/WebContent/WEB-INF/lib/spring-oxm-5.2.8.RELEASE.jar"/>
+  <path value="E:/eclipse_wp/SpringTiles/WebContent/WEB-INF/lib/spring-tx-5.2.8.RELEASE.jar"/>
+  <path value="C:/Program Files/Eclipse/apache-tomcat-9.0.10/lib/tomcat-coyote.jar"/>
+  <path value="E:/eclipse_wp/SpringTiles/WebContent/WEB-INF/lib/tiles-request-servlet-1.0.7.jar"/>
+  <path value="E:/eclipse_wp/SpringTiles/WebContent/WEB-INF/lib/spring-context-support-5.2.8.RELEASE.jar"/>
+  <path value="E:/eclipse_wp/SpringTiles/WebContent/WEB-INF/lib/spring-webflux-5.2.8.RELEASE.jar"/>
+  <path value="C:/Program Files/Eclipse/apache-tomcat-9.0.10/lib/jaspic-api.jar"/>
+  <path value="C:/Program Files/Eclipse/apache-tomcat-9.0.10/lib/tomcat-i18n-es.jar"/>
+  <path value="E:/eclipse_wp/SpringTiles/WebContent/WEB-INF/lib/spring-core-5.2.8.RELEASE.jar"/>
+  <path value="E:/eclipse_wp/SpringTiles/WebContent/WEB-INF/lib/commons-beanutils-1.8.0.jar"/>
+  <path value="C:/Program Files/Eclipse/apache-tomcat-9.0.10/lib/tomcat-util.jar"/>
+  <path value="E:/eclipse_wp/SpringTiles/WebContent/WEB-INF/lib/spring-jms-5.2.8.RELEASE.jar"/>
+  <path value="E:/eclipse_wp/SpringTiles/WebContent/WEB-INF/lib/tiles-mvel-3.0.8.jar"/>
+  <path value="E:/eclipse_wp/SpringTiles/WebContent/WEB-INF/lib/tiles-velocity-3.0.8.jar"/>
+  <path value="E:/eclipse_wp/SpringTiles/WebContent/WEB-INF/lib/jstl-1.2.jar">
+   <libraries>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/c-1_0-rt.tld" project="SpringTiles"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/c-1_0.tld" project="SpringTiles"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/c.tld" project="SpringTiles"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/fmt-1_0-rt.tld" project="SpringTiles"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/fmt-1_0.tld" project="SpringTiles"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/fmt.tld" project="SpringTiles"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/fn.tld" project="SpringTiles"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/permittedtaglibs.tld" project="SpringTiles"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/scriptfree.tld" project="SpringTiles"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/sql-1_0-rt.tld" project="SpringTiles"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/sql-1_0.tld" project="SpringTiles"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/sql.tld" project="SpringTiles"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/x-1_0-rt.tld" project="SpringTiles"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/x-1_0.tld" project="SpringTiles"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/x.tld" project="SpringTiles"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="C:/Program Files/Eclipse/apache-tomcat-9.0.10/lib/catalina-ha.jar"/>
+  <path value="E:/eclipse_wp/SpringTiles/WebContent/WEB-INF/lib/tiles-request-freemarker-1.0.7.jar"/>
+  <path value="C:/Program Files/Eclipse/apache-tomcat-9.0.10/lib/jasper.jar"/>
+  <path value="E:/eclipse_wp/SpringTiles/WebContent/WEB-INF/lib/tiles-request-jsp-1.0.7.jar"/>
+  <path value="E:/eclipse_wp/SpringTiles/WebContent/WEB-INF/lib/spring-aspects-5.2.8.RELEASE.jar"/>
+  <path value="E:/eclipse_wp/SpringTiles/WebContent/WEB-INF/lib/spring-jdbc-5.2.8.RELEASE.jar"/>
+  <path value="E:/eclipse_wp/SpringTiles/WebContent/WEB-INF/lib/tiles-request-mustache-1.0.7.jar"/>
+ </paths>
+ <validation>
+  <core validator-id="jsf-verification"/>
+  <core validator-id="jboss.cdi.core"/>
+  <el/>
+ </validation>
+ <aliases/>
+ <includes/>
+ <uris/>
+</kb-project>
